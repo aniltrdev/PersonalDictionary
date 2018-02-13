@@ -1,0 +1,16 @@
+﻿@model IEnumerable<PersonalDictionary.Models.PersonViewModel>
+@{
+    ViewBag.Title = "Index";
+}
+
+<h2>Index</h2>
+
+@foreach(var item in Model)
+{
+    <ul>@item.Gender</ul>
+    foreach(var pet in item.Pets)
+    {
+        <li>@pet.Name</li>
+    }
+}
+

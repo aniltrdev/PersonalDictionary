@@ -1,0 +1,7 @@
+bin\
+TestResults\
+packages.config
+*.dll
+*.pdb
+*.log
+*.txt
