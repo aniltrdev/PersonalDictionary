@@ -1,5 +1,6 @@
 bin/
 TestResults/
+Packages/
 packages.config
 *.dll
 *.pdb
