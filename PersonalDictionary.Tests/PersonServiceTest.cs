@@ -1,14 +1,9 @@
 ﻿using Microsoft.VisualStudio.TestTools.UnitTesting;
+using PersonalDictionary.Core;
 using PersonalDictionary.Core.Domain;
-using PersonalDictionary.Core.Domain.Service;
 using PersonalDictionary.Models;
-using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-using Nito.AsyncEx.UnitTests;
-using PersonalDictionary.Core;
 
 namespace PersonalDictionary.Tests
 {
